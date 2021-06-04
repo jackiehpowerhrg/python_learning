@@ -42,6 +42,12 @@ access_log.1
 access_log.2
 ```
 
+##
+
+Log rotation is the practice of creating new versions of a log file to maintain a minimum log file size. 
+The logrotate utility is used to perform automatic rotation of logs.
+The utility can also be configured to append the date of the log to the file name rather than a decimal number.
+
 ## Sources
 - This readme is based on this [README standard](https://github.com/RichardLitt/standard-readme).
 
